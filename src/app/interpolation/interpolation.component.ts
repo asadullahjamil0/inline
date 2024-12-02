@@ -13,5 +13,9 @@ export class InterpolationComponent {
     return "Hello " + item;
   }
   public url = window.location.href;
+  public message = "";
+  onClick() {
+    this.message = "Hey this is event CLICK!";
+  }
 
 }
