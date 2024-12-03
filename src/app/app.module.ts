@@ -9,6 +9,7 @@ import { User2Component } from './user2/user2.component';
 import { User3Component } from './user3/user3.component';
 import { InterpolationComponent } from './interpolation/interpolation.component';
 import { BindingsComponent } from './bindings/bindings.component';
+import { ClassBindingComponent } from './class-binding/class-binding.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { BindingsComponent } from './bindings/bindings.component';
     User2Component,
     User3Component,
     InterpolationComponent,
-    BindingsComponent
+    BindingsComponent,
+    ClassBindingComponent
   ],
   imports: [
     BrowserModule,
