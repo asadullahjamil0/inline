@@ -1,0 +1,7 @@
+<h1 [style]="'backgroundColor:green; color:red; fontSize:40px'">Hey this is STYLE BINDING</h1>
+<h1 [style]="{'fontFamily':'cooper','font-size':'40px'}">Hey this is STYLE BINDING</h1>
+<h1 [style]="myStyle">Hey this is STYLE BINDING</h1>
+<h1 [ngStyle]="myStyle">Hey this is STYLE BINDING</h1>
+<h1 [style.color]="'green'" [style.fontSize.px]="'60'" [style.fontStyle]="'italic'">Hey this is STYLE BINDING</h1>
+<h1 [style.color]="condition ? 'orange' : 'green'" [style.backgroundColor]="condition ? 'red' : 'yellow'">Hey this is STYLE BINDING</h1>
+<button (click)="changeColor()">Change color</button>
