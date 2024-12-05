@@ -11,6 +11,7 @@ import { InterpolationComponent } from './interpolation/interpolation.component'
 import { BindingsComponent } from './bindings/bindings.component';
 import { ClassBindingComponent } from './class-binding/class-binding.component';
 import { StyleBindingComponent } from './style-binding/style-binding.component';
+import { TemplateReferenceComponent } from './template-reference/template-reference.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { StyleBindingComponent } from './style-binding/style-binding.component';
     InterpolationComponent,
     BindingsComponent,
     ClassBindingComponent,
-    StyleBindingComponent
+    StyleBindingComponent,
+    TemplateReferenceComponent
   ],
   imports: [
     BrowserModule,

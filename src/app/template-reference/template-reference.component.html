@@ -1,0 +1,10 @@
+<h2>Now we are learning about template refernce</h2>
+<!-- <input type="text" #textName name="myName" placeholder="Enter Your Name" id=""> -->
+<input type="text" #textName (keyup)="getName(textName.value)" name="myName" placeholder="Enter Your Name" id="">
+<input type="button" (click)="getName(textName.value)" value="Click">
+<br> <br>
+<h2>{{displayName}}</h2>
+
+<h2 #heading>Reading is essential for everything</h2>
+<button (click)="getHeading(heading.innerHTML)">Click</button>
+<h2>{{headingName}}</h2>
