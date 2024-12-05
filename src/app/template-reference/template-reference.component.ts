@@ -15,8 +15,15 @@ export class TemplateReferenceComponent {
   //   console.log(item);
   // }
   public headingName = '';
+  public condition = true;
+  public hide = false;
   getHeading(item: any) {
     this.headingName = item;
-
+  }
+  changeCondition() {
+    this.condition === true ? this.condition = false : this.condition = true;
+  }
+  hideText() {
+    this.hide === true ? this.hide = false : this.hide = true;
   }
 }

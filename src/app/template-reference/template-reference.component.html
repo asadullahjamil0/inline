@@ -6,5 +6,6 @@
 <h2>{{displayName}}</h2>
 
 <h2 #heading>Reading is essential for everything</h2>
-<button (click)="getHeading(heading.innerHTML)">Click</button>
-<h2>{{headingName}}</h2>
+<button (click)="changeCondition(); getHeading(heading.innerHTML); ">Click</button>
+<button (click)="hideText()">Hide Text</button>
+<h2 [class]="{'changeCond':condition, 'hidden':hide}">{{headingName}}</h2>

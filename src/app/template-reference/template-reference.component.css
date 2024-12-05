@@ -1,0 +1,9 @@
+.changeCond {
+    color: red;
+    font-size: 40px;
+    font-family: cooper;
+}
+
+.hidden {
+    visibility: hidden;
+}
