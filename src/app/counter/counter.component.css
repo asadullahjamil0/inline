@@ -1,3 +1,9 @@
+.display {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
 .shaping {
     background-color: #009a95;
     border: 0px solid black;
@@ -9,7 +15,7 @@
     opacity: 0.9;
 }
 
-.heading{
+.heading {
     font-family: cooper;
     color: #4ad800;
     font-size: xxx-large;
