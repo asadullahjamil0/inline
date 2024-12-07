@@ -12,6 +12,7 @@ import { BindingsComponent } from './bindings/bindings.component';
 import { ClassBindingComponent } from './class-binding/class-binding.component';
 import { StyleBindingComponent } from './style-binding/style-binding.component';
 import { TemplateReferenceComponent } from './template-reference/template-reference.component';
+import { CounterComponent } from './counter/counter.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { TemplateReferenceComponent } from './template-reference/template-refere
     BindingsComponent,
     ClassBindingComponent,
     StyleBindingComponent,
-    TemplateReferenceComponent
+    TemplateReferenceComponent,
+    CounterComponent
   ],
   imports: [
     BrowserModule,
