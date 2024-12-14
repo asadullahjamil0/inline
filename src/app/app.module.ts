@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -13,6 +14,7 @@ import { ClassBindingComponent } from './class-binding/class-binding.component';
 import { StyleBindingComponent } from './style-binding/style-binding.component';
 import { TemplateReferenceComponent } from './template-reference/template-reference.component';
 import { CounterComponent } from './counter/counter.component';
+import { TwoWayComponent } from './two-way/two-way.component';
 
 @NgModule({
   declarations: [
@@ -26,11 +28,13 @@ import { CounterComponent } from './counter/counter.component';
     ClassBindingComponent,
     StyleBindingComponent,
     TemplateReferenceComponent,
-    CounterComponent
+    CounterComponent,
+    TwoWayComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
