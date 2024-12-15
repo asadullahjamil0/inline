@@ -1,0 +1,18 @@
+<!-- <h1 *ngIf="condition; else elsepart">We are learning Structural Directives</h1>
+<button (click)="click()">Click Here!</button>
+
+<ng-template #elsepart>
+    <h1>We are not learning Structural Directives</h1>
+</ng-template> -->
+
+<!-- Another way to use If-else statements in Angular -->
+<div *ngIf="condition;then ifPart;else elsePart"></div>
+<ng-template #ifPart>
+    <h1>We are learning Structural Directives</h1>
+</ng-template>
+
+<ng-template #elsePart>
+    <h1>We are not learning Structural Directives</h1>
+</ng-template>
+
+<button (click)="click()">Click Here!</button>

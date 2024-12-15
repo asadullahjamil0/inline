@@ -15,6 +15,7 @@ import { StyleBindingComponent } from './style-binding/style-binding.component';
 import { TemplateReferenceComponent } from './template-reference/template-reference.component';
 import { CounterComponent } from './counter/counter.component';
 import { TwoWayComponent } from './two-way/two-way.component';
+import { NgIfComponent } from './ng-if/ng-if.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { TwoWayComponent } from './two-way/two-way.component';
     StyleBindingComponent,
     TemplateReferenceComponent,
     CounterComponent,
-    TwoWayComponent
+    TwoWayComponent,
+    NgIfComponent
   ],
   imports: [
     BrowserModule,
