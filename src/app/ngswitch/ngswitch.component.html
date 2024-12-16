@@ -1,0 +1,9 @@
+<h2>We are learning structural directive ngSwitch</h2>
+
+<div [ngSwitch]="pizza">
+    <h2 *ngSwitchCase="'fajita'">You ordered Fajita</h2>
+    <h2 *ngSwitchCase="'tikka'">You ordered Tikka</h2>
+    <h2 *ngSwitchDefault="">You did not ordered any pizza</h2>
+
+</div>
+<button (click)="click()">Click Here</button>

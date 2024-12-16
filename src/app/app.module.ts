@@ -16,6 +16,7 @@ import { TemplateReferenceComponent } from './template-reference/template-refere
 import { CounterComponent } from './counter/counter.component';
 import { TwoWayComponent } from './two-way/two-way.component';
 import { NgIfComponent } from './ng-if/ng-if.component';
+import { NgswitchComponent } from './ngswitch/ngswitch.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { NgIfComponent } from './ng-if/ng-if.component';
     TemplateReferenceComponent,
     CounterComponent,
     TwoWayComponent,
-    NgIfComponent
+    NgIfComponent,
+    NgswitchComponent
   ],
   imports: [
     BrowserModule,
