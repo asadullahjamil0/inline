@@ -17,6 +17,7 @@ import { CounterComponent } from './counter/counter.component';
 import { TwoWayComponent } from './two-way/two-way.component';
 import { NgIfComponent } from './ng-if/ng-if.component';
 import { NgswitchComponent } from './ngswitch/ngswitch.component';
+import { NgforComponent } from './ngfor/ngfor.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { NgswitchComponent } from './ngswitch/ngswitch.component';
     CounterComponent,
     TwoWayComponent,
     NgIfComponent,
-    NgswitchComponent
+    NgswitchComponent,
+    NgforComponent
   ],
   imports: [
     BrowserModule,

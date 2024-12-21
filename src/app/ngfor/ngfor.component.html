@@ -1,0 +1,11 @@
+<h1>We are learning ngFor directive</h1>
+<div *ngFor="let fruit of fruits;index as i">
+    <h2>{{ i + 1 }} : {{fruit}}</h2>
+</div>
+<div *ngFor="let p of persons;index as i">
+    <h2>{{i + 1}}</h2>
+    <h2>{{p.name}}</h2>
+    <h2>{{p.age}}</h2>
+    <h2>{{p.isSingle}}</h2>
+    <br>
+</div>
