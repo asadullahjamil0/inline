@@ -1,0 +1,9 @@
+<h1>We are learning nested for loop</h1>
+<div *ngFor="let p of persons">
+    <li>{{p.name}}</li>
+    <li>{{p.age}}</li>
+    <li>{{p.isSingle}}</li>
+    <ul *ngFor="let hobby of p.hobbies">
+        <li>{{hobby}}</li>
+    </ul>
+</div>

@@ -18,6 +18,7 @@ import { TwoWayComponent } from './two-way/two-way.component';
 import { NgIfComponent } from './ng-if/ng-if.component';
 import { NgswitchComponent } from './ngswitch/ngswitch.component';
 import { NgforComponent } from './ngfor/ngfor.component';
+import { FornestedComponent } from './fornested/fornested.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { NgforComponent } from './ngfor/ngfor.component';
     TwoWayComponent,
     NgIfComponent,
     NgswitchComponent,
-    NgforComponent
+    NgforComponent,
+    FornestedComponent
   ],
   imports: [
     BrowserModule,
