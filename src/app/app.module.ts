@@ -19,6 +19,7 @@ import { NgIfComponent } from './ng-if/ng-if.component';
 import { NgswitchComponent } from './ngswitch/ngswitch.component';
 import { NgforComponent } from './ngfor/ngfor.component';
 import { FornestedComponent } from './fornested/fornested.component';
+import { BootsComponent } from './boots/boots.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +38,8 @@ import { FornestedComponent } from './fornested/fornested.component';
     NgIfComponent,
     NgswitchComponent,
     NgforComponent,
-    FornestedComponent
+    FornestedComponent,
+    BootsComponent
   ],
   imports: [
     BrowserModule,
