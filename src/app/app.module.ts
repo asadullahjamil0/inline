@@ -20,6 +20,7 @@ import { NgswitchComponent } from './ngswitch/ngswitch.component';
 import { NgforComponent } from './ngfor/ngfor.component';
 import { FornestedComponent } from './fornested/fornested.component';
 import { BootsComponent } from './boots/boots.component';
+import { ChildComponent } from './child/child.component';
 
 @NgModule({
   declarations: [
@@ -39,7 +40,8 @@ import { BootsComponent } from './boots/boots.component';
     NgswitchComponent,
     NgforComponent,
     FornestedComponent,
-    BootsComponent
+    BootsComponent,
+    ChildComponent
   ],
   imports: [
     BrowserModule,

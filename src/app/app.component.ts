@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'inline';
+  name = "AsadUllah Jamil";
+  fruits = ["Banana", "Mango", "Apple", "Grapes"];
+  obj = {
+    name: "AsadUllah",
+    age: 23,
+    isMarried: false
+  }
+  changeName() {
+    this.name === 'AsadUllah Jamil' ? this.name = 'Bilal Abbas' : this.name = 'AsadUllah Jamil';
+  }
 }

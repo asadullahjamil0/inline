@@ -14,4 +14,8 @@
 <!-- <app-ngswitch></app-ngswitch> -->
 <!-- <app-ngfor></app-ngfor> -->
 <!-- <app-fornested></app-fornested> -->
-<app-boots></app-boots>
+<!-- <app-boots></app-boots> -->
+<app-child [myData]="name"></app-child>
+<app-child [myArr]="fruits"></app-child>
+<app-child [myObj]="obj"></app-child>
+<button (click)="changeName()">Change Name</button>
