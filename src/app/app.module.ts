@@ -23,6 +23,7 @@ import { BootsComponent } from './boots/boots.component';
 import { ChildComponent } from './child/child.component';
 import { Child2Component } from './child2/child2.component';
 import { PipesComponent } from './pipes/pipes.component';
+import { CustomPipe } from './pipe/custom.pipe';
 
 @NgModule({
   declarations: [
@@ -45,7 +46,8 @@ import { PipesComponent } from './pipes/pipes.component';
     BootsComponent,
     ChildComponent,
     Child2Component,
-    PipesComponent
+    PipesComponent,
+    CustomPipe
   ],
   imports: [
     BrowserModule,
