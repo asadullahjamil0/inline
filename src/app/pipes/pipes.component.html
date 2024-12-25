@@ -22,3 +22,16 @@
 <h2>Full time: {{myDate | date:'fullTime'}}</h2>
 
 <h2>{{myDate | date:'h:m:s a d M y w W'}}</h2>
+
+<h1>Now we are learning number,Currenct pipe</h1>
+<h2>{{3.789 | number:"2.5-6"}}</h2>
+<h2>{{3.789 | number:"3.7-8"}}</h2>
+<h2>{{3.789 | number:"1.1-2"}}</h2>
+
+<h2>{{0.50 | percent}}</h2>
+<h2>{{50 | percent}}</h2>
+
+<h2>{{24 | currency:"USD"}}</h2>
+<h2>{{24 | currency:"GBP"}}</h2>
+<h2>{{24 | currency:"GBP" : "code"}}</h2>
+<h2>{{24 | currency:"GBP" : "code" : "3.3-4"}}</h2>
