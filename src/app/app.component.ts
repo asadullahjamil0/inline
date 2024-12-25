@@ -17,4 +17,6 @@ export class AppComponent {
   changeName() {
     this.name === 'AsadUllah Jamil' ? this.name = 'Bilal Abbas' : this.name = 'AsadUllah Jamil';
   }
+
+  public msg = "";
 }

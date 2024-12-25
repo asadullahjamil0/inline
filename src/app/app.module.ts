@@ -21,6 +21,7 @@ import { NgforComponent } from './ngfor/ngfor.component';
 import { FornestedComponent } from './fornested/fornested.component';
 import { BootsComponent } from './boots/boots.component';
 import { ChildComponent } from './child/child.component';
+import { Child2Component } from './child2/child2.component';
 
 @NgModule({
   declarations: [
@@ -41,7 +42,8 @@ import { ChildComponent } from './child/child.component';
     NgforComponent,
     FornestedComponent,
     BootsComponent,
-    ChildComponent
+    ChildComponent,
+    Child2Component
   ],
   imports: [
     BrowserModule,
