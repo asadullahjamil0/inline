@@ -24,6 +24,9 @@ import { ChildComponent } from './child/child.component';
 import { Child2Component } from './child2/child2.component';
 import { PipesComponent } from './pipes/pipes.component';
 import { CustomPipe } from './pipe/custom.pipe';
+import { StudentServiceComponent } from './student-service/student-service.component';
+import { StudentDataComponent } from './student-data/student-data.component';
+import { StudentServiceService } from './services/student-service.service';
 
 @NgModule({
   declarations: [
@@ -47,14 +50,16 @@ import { CustomPipe } from './pipe/custom.pipe';
     ChildComponent,
     Child2Component,
     PipesComponent,
-    CustomPipe
+    CustomPipe,
+    StudentServiceComponent,
+    StudentDataComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule
   ],
-  providers: [],
+  providers: [StudentServiceService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
